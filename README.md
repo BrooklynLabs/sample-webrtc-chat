@@ -42,6 +42,15 @@ Application Files
 * webrtc/woogeen.js
 * webrtc/woogeen.p2p.js
 
+Usage
+-----------------
+Please replace oauth app ID, consumer key and callback with your own values at line 5 - 7 of webrtc/oauth.js. You can also change these values by app designer.
+
+Third party service
+-------------------
+The sample depends on Yahoo Messenger, which intend to be an IM system instead of a signaling exchange system. Chat may fail due to network instability. Please read Guidelines for Using the Yahoo Messenger IM SDK(https://developer.yahoo.com/messenger/guide/ch06s02.html) carefully before using it.
+
+
 
 Copyright (c) 2014, Intel Corporation. All rights reserved.
 
