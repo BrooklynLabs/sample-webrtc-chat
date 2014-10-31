@@ -10,6 +10,11 @@
 **source: https://github.com/jquery/jquery-ui
 **license: https://github.com/jquery/jquery-ui/blob/master/LICENSE.txt
 
+## Licode
+
+**source: https://github.com/ging/licode
+**license: https://github.com/ging/licode/blob/master/README.md
+
 ## Socket.IO
 
 **source: https://github.com/Automattic/socket.io
