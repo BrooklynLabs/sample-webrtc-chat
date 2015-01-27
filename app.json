@@ -1,11 +1,12 @@
 {
-  "reponame":"dpd_html5_samples-webrtc-chat",
-  "title":"WebRTC Chat Sample",
-  "tooltip":"A simple for WebRTC chat",
-  "description":"A sample application intended to demonstrate the basics of creating a real time video/voice chat app with XDK.",
+  "reponame":"sample-webrtc-chat",
+  "title":"WebRTCSDK Video Chat Sample",
+  "tooltip":"A sample for WebRTC video chat",
+  "description":"A sample application intended to demonstrate the basics of creating a real time video/voice chat app with XDK based on Intel(R) Collaboration Service for WebRTC JavaScript SDK.",
   "keywords":["WebRTC","chat"],
   "visible" : "true",
   "appname": "demo.webrtcchat",
   "abbr":"WebRTCChat",
-  "relname":"1.0.0"
+  "type":"appdesigner",
+  "relname":"4.0.0"
 }

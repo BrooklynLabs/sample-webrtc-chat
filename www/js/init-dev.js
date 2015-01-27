@@ -159,15 +159,6 @@ dev.onDeviceReadyCordova = function() {
     window.setTimeout(dev.onDeviceReady, dev.INSURANCE) ;
 } ;
 
-// If this event is called first, we should be in the legacy XDK container.
-
-dev.onDeviceReadyXDK = function() {
-    dev.isDeviceReady.d_xdk_ready______ = dev.timeStamp() ;
-    var fName = "dev.onDeviceReadyXDK():" ;
-    console.log(fName, dev.isDeviceReady.d_xdk_ready______) ;
-    window.setTimeout(dev.onDeviceReady, dev.INSURANCE) ;
-} ;
-
 // This is a faux onDeviceReady for browser scenario, mostly for code symmetry and fail-safe.
 
 dev.onDeviceReadyBrowser = function() {
@@ -197,7 +188,6 @@ dev.initDeviceReady = function() {
         dev.isDeviceReady.b_fnDocumentReady = dev.timeStamp() ;
     }
 
-    document.addEventListener("intel.xdk.device.ready", dev.onDeviceReadyXDK, false) ;
     document.addEventListener("deviceready", dev.onDeviceReadyCordova, false) ;
     window.setTimeout(dev.onDeviceReadyBrowser, dev.BROWSER) ;
 
