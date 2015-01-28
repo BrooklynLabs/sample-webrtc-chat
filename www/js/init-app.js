@@ -110,9 +110,6 @@ app.hideSplashScreen = function() {
     if( navigator.splashscreen ) {                              // Cordova API detected
         navigator.splashscreen.hide() ;
     }
-    if( window.intel && intel.xdk && intel.xdk.device ) {       // Intel XDK API detected
-        intel.xdk.device.hideSplashScreen() ;
-    }
 
     console.log(fName, "exit") ;
 } ;
