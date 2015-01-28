@@ -1,96 +1,107 @@
 <!DOCTYPE html>
+<!--HTML5 doctype-->
 <html>
-    <!--
-  * Please see the included README.md file for license terms and conditions.
-  -->
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Blank App Designer Project Template</title>
-        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+		<title>Your New Application</title>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+		<style type="text/css">
+			/* Prevent copy paste for all elements except text fields */
+			*  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
+			input, textarea  { -webkit-user-select:text; }
+		</style>
+		<script src="intelxdk.js"></script>
+		<script src="cordova.js"></script>
+		<script src="xhr.js"></script>
+        <script src="js/main.js"></script>
+	</head>
 
-        <!--
-  * The "meta viewport" tag (below) helps your app size appropriately to a device's screen.
-  * Note that the meta viewport approach is being phased out in favor of the @viewport CSS rule.
-  * For a quick overview of both, see this article:
-  *   http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag
-  * To see what happens, try the app on a real device with and without a "meta viewport" tag.
--->
+	<body id="afui" onload="onDocLoad()" class="background">
 
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1, maximum-scale=2"> -->
+		<!-- content goes here-->
+		<div class="uwrap" id="content">
+			<div class="upage panel background-color" id="mainpage" data-header="none" data-footer="none">
+				<div class="upage-outer">
+					<div class="upage-content" id="mainsub">
 
-        <style>
-            /* following three (cascaded) are equivalent to above three meta viewport statements */
-            /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html */
-            /* see http://dev.w3.org/csswg/css-device-adapt/ */
-                @-ms-viewport { width: 100vw ; zoom: 100% ; }                           @viewport { width: 100vw ; zoom: 100% ; }
-                @-ms-viewport { user-zoom: fixed ; }                                    @viewport { user-zoom: fixed ; }
-                /*@-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }   @viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }*/
-        </style>
+						<div class="grid grid-pad urow uib_row_1 row-height-1" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_1 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
 
-        <link rel="stylesheet" href="css/old-android.css">
-        <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+									<div class="widget uib_w_1 d-margins text-style" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>Local Music</p>
+										</div>
+									</div>
+									<div class="widget uib_w_3 d-margins contentname-text" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>Calm Ocean Breeze</p>
+										</div>
+									</div>
+									<audio class="widget uib_w_2 d-margins" data-uib="media/audio" data-ver="0" controls="controls">
+										<source src="sounds/calm-ocean-breeze.wav" type="audio/wav">
 
-        <!-- IMPORTANT: Do not include your weinre script tag as part of your release builds! -->
-        <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work below -->
-        <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
+									</audio>
+									<div class="widget uib_w_5 d-margins contentname-text" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>Musical Compilation</p>
+										</div>
+									</div>
+									<audio class="widget uib_w_4 d-margins" data-uib="media/audio" data-ver="0" controls="controls">
+										<source src="sounds/xylophones-bass-drums-and-snare-drums-ambience.wav" type="audio/wav">
+									</audio>
+									<div class="widget uib_w_6 d-margins text-style" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>Streaming ONLINE Audio</p>
+										</div>
+									</div>
+									<div class="widget uib_w_7 d-margins contentname-text" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>IGN Nintendo Voice Chat Podcast</p>
+										</div>
+									</div>
+									<audio class="widget uib_w_8 d-margins" data-uib="media/audio" data-ver="0" controls="controls">
+										<source src="http://traffic.libsyn.com/ignwii/Nintendo_Voice_Chat__Show_and_Tell_With_Our_Favorite_Nintendo_Treasures.mp3" type="audio/mpeg">
+									</audio>
+									<div class="widget uib_w_9 d-margins contentname-text" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>Archive.org How To Be More Aware Of The World Around You M3U Playlist</p>
+										</div>
+									</div>
+									<audio class="widget uib_w_10 d-margins" data-uib="media/audio" data-ver="0" controls="controls">
+										<source src="https://archive.org/download/Item395HowToBeMoreAwareOfTheWorldAroundYou/download%2FItem395HowToBeMoreAwareOfTheWorldAroundYou%2FItem395HowToBeMoreAwareOfTheWorldAroundYou_vbr.m3u" type="audio/mpegURL">
+											<source src="my/video/src.mp4" type="audio/ogg">
+									</audio><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+					</div>
+					<!-- /upage-content -->
 
-        <!-- Most third-party libraries should go here. References (below) are just examples to give you the general idea... -->
-        <!-- <script src="lib/ft/fastclick.js"></script> -->
+				</div>
+				<!-- /upage-outer -->
 
-        <script src="intelxdk.js"></script>
-        <!-- phantom library, needed for XDK "legacy" container api calls -->
-        <script src="cordova.js"></script>
-        <!-- phantom library, needed for Cordova api calls -->
-        <script src="xhr.js"></script>
-        <!-- phantom library, needed for XDK "legacy" container CORS -->
+			</div>
+			<!-- /upage -->
 
-        <script type="application/javascript" src="lib/jquery.min.js"></script>
-        <script type="application/javascript" src="webrtc/gab.proxy.js"></script>
-        <script type="application/javascript" src="webrtc/sc.yahoo.js"></script>
-        <script type="application/javascript" src="webrtc/oauth.js"></script>
-        <script type="application/javascript" src="webrtc/adapter.js"></script>
-        <script type="application/javascript" src="webrtc/woogeen.js"></script>
-        <script type="application/javascript" src="webrtc/woogeen.p2p.js"></script>
-        <script type="application/javascript" src="webrtc/socket.io.js"></script>
-        <script type="application/javascript" src="webrtc/chatwidget.js"></script>
-        <script type="application/javascript" src="js/sample.js"></script>
+		</div>
+		<!-- /uwrap -->
+	</body>
 
-        <script src="js/app.js"></script>
-        <script src="js/init-app.js"></script>
-        <script src="js/init-dev.js"></script>
-        <script type="application/javascript" src="webrtc/init.js"></script>
-    </head>
-
-    <body>
-        <!-- IMPORTANT: Do not include your weinre script tag as part of your release builds! -->
-        <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work above -->
-        <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
-
-        <div class="upage vertical-col left" id="mainpage">
-            <div data-auth="yahoo" class="table-thing widget uib_w_2 d-margins" data-uib="widgets/webrtc-login" data-ver="0">
-                <span class="wide-control hidden"><input type="text" class="webrtcinput form-control default" placeholder="Login Name"></span>
-                <span class="narrow-control login"><button class="webrtcbutton btn btn-default"></button></span>
-                <span class="narrow-control disconnect hidden"><button class="webrtcbutton btn btn-default">Disconnect</button></span>
-            </div>
-            <div class="table-thing with-label widget uib_w_1 d-margins" data-uib="widgets/webrtc-connect-to" data-ver="0">
-                <label class="narrow-control label-inline">Connect To</label>
-
-                <input class="wide-control form-control default" placeholder="friend" type="text">
-            </div>
-            <div class="ad_webrtc widget uib_w_3 d-margins" data-uib="widgets/webrtc-video" data-ver="0" data-server="http://180.153.223.235:8065/webrtc">
-                <p>
-                    <span class="target-connect"><button class="webrtcbutton btn btn-default">start video chat</button></span>
-                    <span class="target-disconnect hidden"><button class="webrtcbutton btn btn-default">end video chat</button></span>
-                </p>
-                <div class="chatwidget" id="chatwidget1">
-                    <video class="remote" autoplay="autoplay"></video>
-                    <video class="local" autoplay="autoplay"></video>
-                </div>
-            </div>
-        </div>
-        <link rel="stylesheet" href="css/sample.css">
-    </body>
 </html>
