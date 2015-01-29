@@ -1,0 +1,12 @@
+.login .webrtcbutton{
+  width:238px;
+  height:43px;
+  background-image:url('../img/oauth-yahoo.png');
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border: 0;
+}
+
+.disconnect{
+  display:none;
+}

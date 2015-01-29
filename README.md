@@ -1,27 +1,61 @@
-Audio Player App
-============================
-The Audio Player App demonstrates how to play audio files local to the project, online podcast, online .m3u playlist and files on device.
+WebRTCSDK Video Chat Sample
+-------------------------------------------
+The WebRTC chat sample is intended to demonstrate the basics of creating a real time video/voice chat app with XDK.
 
-Intel(R) XDK 
+Intel(R) XDK
 -------------------------------------------
 This sample is part of the Intel(R) XDK. 
-Download the Intel(R) XDK at http://software.intel.com/en-us/html5. To see the technical details of the sample, 
-please visit the sample article page at https://software.intel.com/en-us/html5/articles/html5-hybrid-apps-with-admob-cordova-plugin.
+Download the Intel XDK at http://software.intel.com/en-us/html5.
+To see the technical detail of the sample, please visit the sample article page 
+at TBA. 
 
+Intel(R) Collaboration Service for WebRTC
+-------------------------------------------
+This sample is based on Intel(R) Collaboration Service for WebRTC JavaScript SDK. To see the technical detail of the SDK, please visit https://software.intel.com/sites/landingpage/webrtc.
 
-Important App Files
----------------------------
+Application Files
+-----------------
 * index.html
-* icon.png
+* LICENSE
 * screenshot.png
-* app.json
-* README.md
-* js/*
-* css/*
-* appframework/*
+* js/app.js
+* js/init-app.js
+* js/init-dev.js
+* js/sample.js
+* css/index/defaults.less
+* css/index/index_main.less
+* css/index/styles/ d-margins -- margins.less
+* css/index/index.css
+* css/index_main.less.css
+* css/old-android.css
+* css/sample.css
+* lib/jquery.min.js
+* webrtc/adapter.js
+* webrtc/chatwidget.js
+* webrtc/gab.proxy.js
+* webrtc/gab.websocket.js
+* webrtc/init.js
+* webrtc/oauth.js
+* webrtc/sc.customized.js
+* webrtc/sc.yahoo.js
+* webrtc/socket.io.js
+* webrtc/woogeen.js
+* webrtc/woogeen.p2p.js
 
-License Information Follows
----------------------------
+Usage
+------------------
+Please replace oauth app ID, consumer key and callback with your own values at line 5 - 7 of webrtc/oauth.js. You can also change these values by app designer.
+
+Third party service
+-------------------
+The sample depends on Yahoo Messenger, which intend to be an IM system instead of a signaling exchange system. Chat may fail due to network instability. Please read Guidelines for Using the Yahoo Messenger IM SDK(https://developer.yahoo.com/messenger/guide/ch06s02.html) carefully before using it.
+
+Limitation
+-------------------
+This sample depends on WebRTC. And it should be build with Crosswalk. iOS and Windows Phone is not supported yet.
+
+
+
 Copyright (c) 2014, Intel Corporation. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, 
@@ -48,8 +82,3 @@ GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
 HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT 
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT 
 OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-App Framework
---------------------------
-* source:  http://app-framework-software.intel.com/
-* license:  https://github.com/01org/appframework/blob/master/license.txt
