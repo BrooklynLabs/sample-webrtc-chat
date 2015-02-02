@@ -1,11 +1,11 @@
 {
   "project": {
-    "projectSettingsVersion": "1.1",
+    "projectSettingsVersion": "1.2",
     "creationData": {
       "type": "App Designer",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "appDesigner",
-      "projectGuid": "3d40bf2d-dfe3-4feb-aef2-31c25bd49c0e",
+			"projectGuid": "00000000-0000-0000-0000-000000000000",
       "lastModifiedDate": 1412906430753,
       "creationDate": 1412818051449
     },
@@ -94,7 +94,7 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.3",
-        "crosswalkVersion_": "stable",
+        "crosswalkVersion_": "?",
         "appVersion_": "0.0.1",
         "appDescription_": "",
         "appAuthor_": "",
@@ -119,10 +119,10 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.3",
-        "crosswalkVersion_": "stable",
+        "crosswalkVersion_": "?",
         "appVersion_": "0.0.1",
         "appDescription_": "",
-        "appAuthor_": "",
+				"appAuthor_": "Intel XDK",
         "appVersionCode_": "1"
       },
       "iOS": {
@@ -143,7 +143,7 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.3",
-        "crosswalkVersion_": "stable",
+        "crosswalkVersion_": "?",
         "appVersion_": "0.0.1",
         "appDescription_": ""
       },
@@ -165,7 +165,7 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.3",
-        "crosswalkVersion_": "stable",
+        "crosswalkVersion_": "?",
         "appVersion_": "0.0.0.1",
         "appDescription_": ""
       },
@@ -183,8 +183,8 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.3",
-        "crosswalkVersion_": "stable",
+				"cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "0.0.0.1"
       }
     }
