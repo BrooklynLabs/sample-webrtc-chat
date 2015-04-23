@@ -1,18 +1,19 @@
 {
-   "articleUrl" : "",
-   "tooltip" : "A sample for WebRTC video chat",
-   "appPreview" : null,
-   "visible" : "true",
+   "mobile" : false,
    "keywords" : [
       "WebRTC",
       "chat"
    ],
-   "relName" : "4.0.0",
-   "repoName" : "sample-webrtc-chat",
-   "abbr" : "WebRTCChat",
-   "type" : "appdesigner",
-   "appName" : "demo.webrtcchat",
-   "description" : "A sample application intended to demonstrate the basics of creating a real time video/voice chat app with XDK based on Intel(R) Collaboration Service for WebRTC JavaScript SDK.",
    "title" : "WebRTCSDK Video Chat Sample",
-   "projectTypeName" : "com.intel.xdk.projecttype.jsapp"
+   "type" : "appdesigner",
+   "abbr" : "WebRTCChat",
+   "appName" : "demo.webrtcchat",
+   "visible" : true,
+   "tooltip" : "A sample for WebRTC video chat",
+   "repoName" : "sample-webrtc-chat",
+   "appPreview" : false,
+   "description" : "A sample application intended to demonstrate the basics of creating a real time video/voice chat app with XDK based on Intel(R) Collaboration Service for WebRTC JavaScript SDK.",
+   "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
+   "relName" : "4.0.0",
+   "articleUrl" : ""
 }
