@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2014-ww51/sample-webrtcsdk-video-chat/sample.zip",
          "projectGuid": "00000000-0000-0000-0000-000000000000",
-      "lastModifiedDate": 1429659658885,
+      "lastModifiedDate": 1430099690808,
       "creationDate": 1423520470020
     },
     "XDK-app-designer": "true",
@@ -152,9 +152,9 @@
         "excludedLibraries_": "",
         "iosProvs_": [],
          "cordovaCLIVersion_": "?",
+         "appAuthor_": "Intel XDK",
          "crosswalkVersion_": "?",
         "appVersion_": "0.0.1",
-        "appAuthor_": "Intel XDK",
         "appDescription_": ""
       },
       "Windows8": {
@@ -182,7 +182,7 @@
          "crosswalkVersion_": "?",
         "appVersion_": "0.0.0.1",
         "appDescription_": "",
-         "appAuthor_": "Intel XDK",
+         "appAuthor_": "Intel XDK"
       },
       "WebApp": {
         "platform_": "webapp",
