@@ -1,10 +1,10 @@
 WebRTCSDK Video Chat Sample
 -------------------------------------------
-The WebRTC chat sample is intended to demonstrate the basics of creating a real time video/voice chat app with XDK.
+The WebRTC chat sample is intended to demonstrate the basics of creating a real time video/voice chat app with Intel XDK.
 
-Intel(R) XDK
+Intel XDK
 -------------------------------------------
-This sample is part of the Intel(R) XDK. 
+This sample is part of the Intel XDK. 
 Download the Intel XDK at http://software.intel.com/en-us/html5.
 To see the technical detail of the sample, please visit the sample article page 
 at TBA. 
