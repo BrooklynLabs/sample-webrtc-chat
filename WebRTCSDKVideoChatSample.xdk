@@ -17,69 +17,69 @@
         "libraries": [],
         "serviceMethods": [],
         "cordovaPluginsDirectory": "plugins",
-         "cordovaPlugins": [
-      {
-        "id": "org.apache.cordova.inappbrowser",
-        "version": "0.5.4",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.splashscreen",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.device",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.media-capture",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.camera",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.media",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      }
-    ],
+        "cordovaPlugins": [
+            {
+                "id": "org.apache.cordova.inappbrowser",
+                "version": "0.5.4",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": []
+            },
+            {
+                "id": "org.apache.cordova.splashscreen",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": []
+            },
+            {
+                "id": "org.apache.cordova.device",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": []
+            },
+            {
+                "id": "org.apache.cordova.media-capture",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": []
+            },
+            {
+                "id": "org.apache.cordova.camera",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": []
+            },
+            {
+                "id": "org.apache.cordova.media",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": []
+            }
+        ],
         "buildConfigurations": {
             "Android": {
                 "platform_": "android",
                 "runtime_": "Cordova 3.x",
                 "name_": "Android",
                 "preferences_": {
-                    "android-minSdkVersion": "10",
+                    "android-minSdkVersion": "14",
                     "android-targetSdkVersion": "19",
                     "android-installLocation": "auto"
                 },
