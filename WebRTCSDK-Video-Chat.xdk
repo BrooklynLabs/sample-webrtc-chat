@@ -27,6 +27,23 @@
         "cordovaPluginsDirectory": "plugins",
         "cordovaPlugins": [
             {
+                "id": "org.apache.cordova.statusbar",
+                "name": "StatusBar",
+                "version": "?",
+                "originType": "cordova.io",
+                "origin": "org.apache.cordova.statusbar",
+                "gitref": "",
+                "paramvals": {},
+                "selectedState": "Included",
+                "dependsOn": [],
+                "topLevel": true,
+                "cordovaVersion": "?",
+                "permissions": {},
+                "description": "Cordova StatusBar Plugin",
+                "data": {},
+                "dependedBy": []
+             },
+            {
                 "id": "cordova-plugin-inappbrowser",
                 "version": "?",
                 "selectedState": "Included",
@@ -40,7 +57,7 @@
                 "topLevel": true,
                 "gitref": "",
                 "name": "InAppBrowser",
-                "cordovaVersion": ">=3.1.0",
+                "cordovaVersion": "?",
                 "description": "Cordova InAppBrowser Plugin"
             },
             {
@@ -87,13 +104,7 @@
                 "dependedBy": [],
                 "originType": "cordova.io",
                 "origin": "cordova-plugin-media-capture",
-                "permissions": {
-                    "android:name": [
-                        "android.permission.RECORD_AUDIO",
-                        "android.permission.RECORD_VIDEO",
-                        "android.permission.WRITE_EXTERNAL_STORAGE"
-                    ]
-                },
+                "permissions": {},
                 "topLevel": true,
                 "gitref": "",
                 "name": "Capture",
@@ -109,11 +120,7 @@
                 "dependedBy": [],
                 "originType": "cordova.io",
                 "origin": "cordova-plugin-camera",
-                "permissions": {
-                    "android:name": [
-                        "android.permission.WRITE_EXTERNAL_STORAGE"
-                    ]
-                },
+                "permissions": {},
                 "topLevel": true,
                 "gitref": "",
                 "name": "Camera",
@@ -131,14 +138,7 @@
                 "dependedBy": [],
                 "originType": "cordova.io",
                 "origin": "cordova-plugin-media",
-                "permissions": {
-                    "android:name": [
-                        "android.permission.RECORD_AUDIO",
-                        "android.permission.MODIFY_AUDIO_SETTINGS",
-                        "android.permission.WRITE_EXTERNAL_STORAGE",
-                        "android.permission.READ_PHONE_STATE"
-                    ]
-                },
+                "permissions": {},
                 "topLevel": true,
                 "gitref": "",
                 "name": "Media",
@@ -156,11 +156,7 @@
                 "selectedState": "Included",
                 "dependsOn": [],
                 "topLevel": false,
-                "permissions": {
-                    "android:name": [
-                        "android.permission.WRITE_EXTERNAL_STORAGE"
-                    ]
-                },
+                "permissions": {},
                 "description": "Cordova File Plugin",
                 "data": {},
                 "dependedBy": [
@@ -170,10 +166,10 @@
             }
         ],
         "buildConfigurations": {
-            "Android": {
+            "Android-Crosswalk": {
                 "platform_": "android",
-                "runtime_": "Cordova 3.x",
-                "name_": "Android",
+                "runtime_": "Crosswalk with Cordova 3.x",
+                "name_": "Android-Crosswalk",
                 "preferences_": {
                     "android-minSdkVersion": "14",
                     "android-targetSdkVersion": "19",
@@ -203,10 +199,10 @@
                 "appAuthor_": "Intel XDK",
                 "appVersionCode_": "1"
             },
-            "Android-Crosswalk": {
+            "Android": {
                 "platform_": "android",
-                "runtime_": "Crosswalk with Cordova 3.x",
-                "name_": "Android-Crosswalk",
+                "runtime_": "Cordova 3.x",
+                "name_": "Android",
                 "preferences_": {
                     "android-minSdkVersion": "14",
                     "android-targetSdkVersion": "19",
