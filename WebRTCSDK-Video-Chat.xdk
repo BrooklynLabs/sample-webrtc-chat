@@ -181,7 +181,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://180.153.223.235:8065/webrtc",
                         "http://developer.messenger.yahooapis.com/*"
                     ],
@@ -214,7 +215,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://180.153.223.235:8065/webrtc",
                         "http://developer.messenger.yahooapis.com/*"
                     ],
@@ -246,7 +248,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://180.153.223.235:8065/webrtc",
                         "http://developer.messenger.yahooapis.com/*"
                     ],
@@ -278,7 +281,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://180.153.223.235:8065/webrtc",
                         "http://developer.messenger.yahooapis.com/*"
                     ],
@@ -306,7 +310,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://180.153.223.235:8065/webrtc",
                         "http://developer.messenger.yahooapis.com/*"
                     ],
@@ -331,7 +336,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://180.153.223.235:8065/webrtc",
                         "http://developer.messenger.yahooapis.com/*"
                     ],
@@ -356,7 +362,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://180.153.223.235:8065/webrtc",
                         "http://developer.messenger.yahooapis.com/*"
                     ],
@@ -381,7 +388,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://180.153.223.235:8065/webrtc",
                         "http://developer.messenger.yahooapis.com/*"
                     ],
@@ -406,7 +414,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://180.153.223.235:8065/webrtc",
                         "http://developer.messenger.yahooapis.com/*"
                     ],
