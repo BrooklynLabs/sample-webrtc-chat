@@ -179,7 +179,7 @@
                 "appName_": "WebRTCSDK-Video-Chat",
                 "appID_": "xdk.intel.ad.project",
                 "appAccess_": {
-                    "mode": "legacy",
+                    "mode": "whitelist",
                     "network": [
                         "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*",
